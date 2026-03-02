@@ -1,11 +1,11 @@
-# Spring Boot Security Lab
+# Spring Boot Basic Authentication Lab
 
-A comprehensive Spring Security lab project from a Spring Boot Udemy course demonstrating authentication, authorization, and role-based access control in a REST API.
+A Spring Security lab project from a Spring Boot Udemy course demonstrating **HTTP Basic Authentication**, authorization, and role-based access control in a REST API.
 
 ## Project Overview
 
-This project implements a **Contact Management API** with Spring Security features including:
-- HTTP Basic Authentication
+This project implements a **Contact Management API** with Spring Security features focused on **HTTP Basic Authentication**:
+- **HTTP Basic Authentication** (Primary Focus)
 - Role-based Access Control (RBAC)
 - Method-level security using `@PreAuthorize`
 - In-memory user authentication
@@ -136,8 +136,8 @@ curl -X POST -u user:user123 http://localhost:8080/contacts
 ## Learning Objectives
 
 This lab covers:
-- ✅ Setting up Spring Security in a Spring Boot application
-- ✅ Configuring HTTP Basic authentication
+- ✅ **Setting up HTTP Basic Authentication in Spring Security** (Primary Focus)
+- ✅ Configuring HTTP Basic authentication with in-memory user store
 - ✅ Implementing authorization rules at the endpoint level
 - ✅ Using `@PreAuthorize` for method-level security
 - ✅ Managing user roles and authorities
@@ -164,14 +164,6 @@ This project is part of a Spring Boot full-stack Udemy course, specifically desi
 - Default session management is stateless, suitable for RESTful APIs
 - Consider using JWT or OAuth2 for more advanced security scenarios in production applications
 
-## Further Learning
-
-To extend this lab:
-- Implement database-backed authentication using `JdbcUserDetailsManager`
-- Add JWT token support for stateless authentication
-- Implement OAuth2 authorization server
-- Add audit logging for security events
-- Integrate with LDAP/Active Directory
 
 ---
 
